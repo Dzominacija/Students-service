@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="nikola-students-business-logic:ejb">
+    <output-path>$PROJECT_DIR$/nikola-students-business-logic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nikola-students-business-logic</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="nikola-students-business-logic-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="nikola-students-business-logic:ejb exploded" />
+    </root>
+  </artifact>
+</component>

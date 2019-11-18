@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nikola-students</artifactId>
+        <groupId>rs.leadit.learning</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>nikola-students-api</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>rs.leadit.learning</groupId>
+            <artifactId>nikola-students-business-logic</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.spec.javax.ws.rs</groupId>
+            <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <!-- Java EE -->
+        <dependency>
+            <groupId>org.jboss.spec</groupId>
+            <artifactId>jboss-javaee-8.0</artifactId>
+            <version>${jboss-javaee8-spec.version}</version>
+            <scope>provided</scope>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+
+
+</project>

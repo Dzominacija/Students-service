@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nikola-students-web:war">
+    <output-path>$PROJECT_DIR$/nikola-students-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nikola-students-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="nikola-students-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="nikola-students-web:war exploded" />
+    </root>
+  </artifact>
+</component>

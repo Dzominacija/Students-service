@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-api/src/main/main.iml" filepath="$PROJECT_DIR$/nikola-students-api/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-database/src/main/main1.iml" filepath="$PROJECT_DIR$/nikola-students-database/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-business-logic/src/main/main2.iml" filepath="$PROJECT_DIR$/nikola-students-business-logic/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students.iml" filepath="$PROJECT_DIR$/nikola-students.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-api/nikola-students-api.iml" filepath="$PROJECT_DIR$/nikola-students-api/nikola-students-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-business-logic/nikola-students-business-logic.iml" filepath="$PROJECT_DIR$/nikola-students-business-logic/nikola-students-business-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-database/nikola-students-database.iml" filepath="$PROJECT_DIR$/nikola-students-database/nikola-students-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nikola-students-web/nikola-students-web.iml" filepath="$PROJECT_DIR$/nikola-students-web/nikola-students-web.iml" />
+    </modules>
+  </component>
+</project>

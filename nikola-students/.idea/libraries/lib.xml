@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nikola-students-web/target/nikola-students-1.0-SNAPSHOT/WEB-INF/lib/nikola-students-api-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nikola-students-web/target/nikola-students-1.0-SNAPSHOT/WEB-INF/lib/jboss-jaxrs-api_2.1_spec-1.0.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nikola-students-web/target/nikola-students-1.0-SNAPSHOT/WEB-INF/lib/nikola-students-business-logic-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nikola-students-web/target/nikola-students-1.0-SNAPSHOT/WEB-INF/lib/nikola-students-database-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nikola-students-web/target/nikola-students-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

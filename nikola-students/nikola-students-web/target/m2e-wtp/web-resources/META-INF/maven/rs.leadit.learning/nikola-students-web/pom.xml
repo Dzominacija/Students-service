@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nikola-students</artifactId>
+        <groupId>rs.leadit.learning</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>nikola-students-web</artifactId>
+    <packaging>war</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>rs.leadit.learning</groupId>
+            <artifactId>nikola-students-api</artifactId>
+        </dependency>
+        <!--Validation -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- GSON -->
+       <!-- <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            &lt;!&ndash;<scope>provided</scope>&ndash;&gt;
+        </dependency>-->
+
+        <!-- Java EE -->
+        <dependency>
+            <groupId>org.jboss.spec</groupId>
+            <artifactId>jboss-javaee-8.0</artifactId>
+            <version>${jboss-javaee8-spec.version}</version>
+            <scope>provided</scope>
+            <type>pom</type>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <finalName>nikola-students-${project.version}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.3</version>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <!--<Dependencies>net.sourceforge.nekohtml</Dependencies>-->
+                        </manifestEntries>
+                        <compress>false</compress>
+                        <!-- When deploying locally, compression just slows things down. When deploying to staging/production, EAR is built anyways -->
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

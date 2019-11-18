@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nikola-students-api-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nikola-students-api/target/nikola-students-api-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
